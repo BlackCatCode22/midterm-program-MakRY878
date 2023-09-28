@@ -6,9 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Hyena extends Animal {
+
     //create a static member variable that accumulates the number of hyenas created
     private static int numOfHyenas = 0;
-
+    public static int getNumOfHyenas() {
+        return numOfHyenas;
+    }
     //create a constructor that will increment numOfHyenas when a new hyena object is created
 
     public Hyena() {
@@ -48,16 +51,15 @@ public class Hyena extends Animal {
         } catch (IOException e) {
             e.printStackTrace();
 
+//create an ID for our new animal
 
-            //write a Getter method
-          //  public int getNumOfHyenas () {
-            //    return numOfHyenas;
+
+
             }
-
         }
 
 
-    public int getNumOfHyenas() {
-        return numOfHyenas;
-    }
+
+
+
 }
